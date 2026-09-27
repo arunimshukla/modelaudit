@@ -18,6 +18,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Bug Fixes
 
+- Preserve native SafeTensors routing when a valid bounded header also resembles an FDICT zlib stream.
 - Avoid incomplete ONNX weight analysis when Gather nodes read dimensions from Shape outputs.
 - Avoid incomplete ONNX weight analysis when large runtime-activation fanout only adds dynamic bookkeeping lineage.
 - Treat documentation, license, and repository links in verified pickle and ONNX metadata as informational across supported Python versions while preserving active and unknown network destinations.
